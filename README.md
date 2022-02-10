@@ -1,5 +1,7 @@
 # react-netflix-clone-course
 
+ZOUACHE Sélim
+
 ## Features
 
 -   Login
