@@ -10,7 +10,7 @@ import { API_KEY } from '../config/api';
 import { Link } from "react-router-dom"
 
 
-export default function video() {
+export default function videos() {
 let {id} = useParams();
 
 const[data, setData] = useState([] as any[]);

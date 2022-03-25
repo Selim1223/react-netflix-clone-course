@@ -14,12 +14,12 @@ export default function Homepage(){
         <Banner/>
         <Row title="Programmes Netflix" url ={api.fetchNetflixOriginals} isPoster={true}/>
         <Row title="Tendances actuelles" url={api.fetchTrending}  isPoster={false}/>
-        <Row title="Les mieux notés" url={api.fetchTopRated}  isPoster={false}/>
+        <Row title="Les mieux notés" url={api.fetchTopRatedMovies}  isPoster={false}/>
         <Row title="Films d'action" url={api.fetchActionMovies}  isPoster={false}/>
-        <Row title="Films d'horreur" url={api.fetchTrending}  isPoster={false}/>
-        <Row title=" Les comédies" url={api.fetchTopRated}  isPoster={false}/>
-        <Row title="Les documentaires" url={api.fetchActionMovies}  isPoster={false}/>
-        <Row title="Les Séries" url={api.fetchSeries}  isPoster={false}/>
+        <Row title="Films d'horreur" url={api.fetchHorrorMovies}  isPoster={false}/>
+        <Row title=" Les comédies" url={api.fetchComedyMovies}  isPoster={false}/>
+        <Row title="Les documentaires" url={api.fetchDocumentaries}  isPoster={false}/>
+        <Row title="Les Séries" url={api.fetchTrendingSeries}  isPoster={false}/>
         <Footer/>
         </div>
         )

@@ -3,14 +3,16 @@ const BASE_URL = "https://api.themoviedb.org/3"
 
 const api = {
   fetchTrending: `${BASE_URL}/trending/all/week?api_key=${API_KEY}`,
-  fetchNetflixOriginals: `${BASE_URL}/trending/all/week?api_key=${API_KEY}`,
-  fetchTopRated: `${BASE_URL}/movie/top_rated?api_key=${API_KEY}&language=en-US`,
+  fetchNetflixOriginals: `${BASE_URL}/trending/all/day?api_key=${API_KEY}`,
+  fetchTopRatedMovies: `${BASE_URL}/movie/top_rated?api_key=${API_KEY}&language=en-US`,
   fetchActionMovies: `${BASE_URL}/discover/movie?api_key=${API_KEY}&width_genres=28`,
   fetchComedyMovies: `${BASE_URL}/discover/movie?api_key=${API_KEY}&width_genres=35`,
   fetchHorrorMovies: `${BASE_URL}/discover/movie?api_key=${API_KEY}&width_genres=27`,
   fetchRomanceMovies: `${BASE_URL}/discover/movie?api_key=${API_KEY}&width_genres=10749`,
   fetchDocumentaries: `${BASE_URL}/discover/movie?api_key=${API_KEY}&width_genres=99`,
-  fetchSeries: `${BASE_URL}/tv/popular?api_key=${API_KEY}&language=en-US&page=1`,
+  fetchTrendingSeries: `${BASE_URL}/tv/popular?api_key=${API_KEY}&language=en-US&page=1`,
+  fetchTopRatedSeries: `${BASE_URL}/tv/top_rated?api_key=${API_KEY}&language=en-US`,
+
   
 }
 
