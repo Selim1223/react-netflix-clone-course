@@ -1,0 +1,71 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/6dea7743-5586-45d1-89a2-9569b1bb0340/4aa9b081-f3cb-40f0-8e44-c2e0f801c353/FR-fr-20220207-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+}
+
+.NetflixImg{
+    height: 100px;
+    width: 200px;
+    border: none;
+  }
+
+
+h1{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.login{ 
+    padding: 2em 4em 5em 4em;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+
+}
+
+.text{
+    margin: 0 0 10px 0;
+    background-color: #333;
+    color: #8c8c8c;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 4px;
+    height: 50px;
+    width: 250px;
+    line-height: 50px;
+    display: block;
+    appearance: none;
+}
+
+
+.btnSignIn{
+    background-color: #E50914;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0 12px;
+    border-style: none;
+    border-radius: 4px;
+    height: 50px;
+    width: 250px;
+
+}
+
+.checkbox{
+    border:solid 1px black;
+     background-color:White;
+     color:black;
+}
+
+.rememberMe{
+    color: #8c8c8c;
+    margin-right: 80px;
+}
+
+.needHelp{
+    color: #8c8c8c;
+}

@@ -1,0 +1,22 @@
+h1{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.go_back_button{
+    color:white;
+    width: 200px;
+    font-size: larger;
+    font-weight: 700;
+
+}
+.video-playback{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
