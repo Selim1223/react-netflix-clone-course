@@ -9,6 +9,8 @@ import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { Link } from "react-router-dom";
 
+
+
 export default function Navbar() {
 
     const [navBlack, setNavBlack] = useState(false)
@@ -45,7 +47,7 @@ return (
             Séries
         </a>
         </Link>
-        <Link to={'/homepage'}>     
+        <Link to={'/films'}>     
         <a href="/" className="nav__link">
             Films
         </a>

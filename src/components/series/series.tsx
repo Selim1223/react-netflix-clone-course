@@ -13,7 +13,10 @@ export default function Series(){
         <div>
         <Navbar/>
         <Banner/>
-        <Row title="Les Meilleures Séries" url={api.fetchTopRatedSeries}  isPoster={true}/>
+        <Row title="Les Séries les mieux notées" url={api.fetchTopRatedSeries}  isPoster={true}/>
+        <Row title=" les séries de Comédies" url={api.fetchComedySeries}  isPoster={true}/>
+        <Row title=" Les séries de romances" url={api.fetchRomanceSeries}  isPoster={true}/>
+        <Row title="Les séries documentaires" url={api.fetchDocumentariesSeries}  isPoster={true}/>
         <Footer/>
         </div>
         )
