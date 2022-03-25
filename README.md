@@ -2,6 +2,8 @@
 
 ZOUACHE Sélim
 
+Dans src/components/config, j'ai mis un fichier api.tsx, dans lequel j'exporte ma clé api avec une constante API_KEY.
+C'est ici qu'il faudra remplacer l'api key
 ## Features
 
 -   Login
