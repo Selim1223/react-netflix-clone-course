@@ -1,5 +1,9 @@
 # react-netflix-clone-course
 
+ZOUACHE Sélim
+
+Dans src/components/config, j'ai mis un fichier api.tsx, dans lequel j'exporte ma clé api avec une constante API_KEY.
+C'est ici qu'il faudra remplacer l'api key
 ## Features
 
 -   Login
@@ -20,7 +24,7 @@
 
 ### To go further
 
--   Internationalization 
+-   Internationalization [Documentation](https://react.i18next.com/getting-started)
 -   Display trailers from youtube
 
 ## How to get data
